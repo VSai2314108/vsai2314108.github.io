@@ -16,9 +16,7 @@ class Portfolio extends Component {
                        <p>{project.category}</p>
                 </div>
                  </div>
-                 
               </a>
-
            </div>
        </div>
       });
