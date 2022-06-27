@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "VijayaSai Somasundaram",
+    "occupation": "Computer Science Student at the University of Floria",
+    "description": "I mostly work with algorithmic software development and cloud solutions architecture.",
+    "bio": "Passionate Computer Science student.",
+    "email": "somasundaramv@ufl.edu",
+    "phone": "954-895-7910",
+    "address": {
+      "street": "1250 W University Ave",
+      "city": "Gainesville",
+      "state": "FL",
+      "zip": "32601"
+    },
+    "website": "https://github.com/VSai2314108",
+    "resumedownload": "../../public/resume.pdf",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/VSai2314108",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shanshaji/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/vsai2314/",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Florida",
+        "degree": "Bachelor",
+        "graduated": "March 2025",
+        "description": "Majored in Computer Science and Finance"
+      },
+      {
+        "school": "American Heritage Plantation",
+        "degree": "High School",
+        "graduated": "May 2021",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Lutron Electronics",
+        "title": "Software Engineering Intern ",
+        "years": "May 2022 - August 2022",
+        "description": "Migrated multiple services to AWS reducing user configuration time by 95 percent."
+      },
+      {
+        "company": "ADSC",
+        "title": "Co-Founder",
+        "years": "January 2022",
+        "description": "Automating E-Commerce Store Creation in order to increase industry accessibility and improver seller side productivity."
+      }
+    ],
+    "skills": [
+
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Milk Bank Automated Combination Tool",
+        "description": "A novel software to automate the process of combining breast milk donations to meet nutrional needs.",
+        "category": "React Project",
+        "image": "medium.png",
+        "url": "https://github.com/DreamTeamSE/MilkBankOptimizer"
+      },
+      {
+        "title": "Arterial Air Embolism Alarm System",
+        "description": "Revolutionizing the detection of arterial air embolisms utilizing computer science.",
+        "category": "Python App",
+        "image": "js.png",
+        "url": "https://github.com/VSai2314108/FFT"
+      },
+      {
+        "title": "Car Analyzer",
+        "description": "An easy to use web app allowing individuals to better reasearch potential vechicle purchases.",
+        "category": "Python And React Project",
+        "image": "js.png",
+        "url": "https://github.com/VSai2314108/f3530"
+      },
+      {
+        "title": "Mine Sweeper",
+        "description": "A recreation of the age old mine sweeper game.",
+        "category": "C++ Project",
+        "image": "js.png",
+        "url": "https://github.com/VSai2314108/MineSweeper"
+      },
+      {
+        "title": "Cricket Game",
+        "description": "An Incremental design workshop",
+        "category": "Ruby",
+        "image": "ruby.png",
+        "url": "https://github.com/shanshaji/Cricket"
+      },
+      {
+        "title": "Ecommerce App",
+        "description": "A basic ecommerce application",
+        "category": "Ruby",
+        "image": "ruby.png",
+        "url": "https://github.com/shanshaji/Ecommerce"
+      },
+      {
+        "title": "Mars Rover",
+        "description": "Mars Rover Problem Design",
+        "category": "Ruby",
+        "image": "ruby.png",
+        "url": "https://github.com/shanshaji/mars-rover"
+      },
+      {
+        "title": "Dragon PvP Game",
+        "description": "Local Multiplayer 2D Game",
+        "category": "Dragon Ruby",
+        "image": "dragonruby-black.png",
+        "url": "https://shanshaji.itch.io/dragon-pvp"
+      }  
+    ]
+  }
+}
