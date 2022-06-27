@@ -7,7 +7,7 @@ class Footer extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="copyright">
-              <li>&copy; Copyright 2020 Shan Shaji </li>
+              <li>&copy; Copyright 2020 VijayaSai Somasundaram </li>
             </ul>
           </div>
           <div id="go-top">

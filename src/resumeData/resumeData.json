@@ -22,7 +22,7 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/shanshaji/",
+        "url": "https://www.https://www.linkedin.com/in/vijayasai23/",
         "className": "fa fa-linkedin"
       },
       {
@@ -71,58 +71,30 @@
         "title": "Milk Bank Automated Combination Tool",
         "description": "A novel software to automate the process of combining breast milk donations to meet nutrional needs.",
         "category": "React Project",
-        "image": "medium.png",
+        "image": "js.png",
         "url": "https://github.com/DreamTeamSE/MilkBankOptimizer"
       },
       {
         "title": "Arterial Air Embolism Alarm System",
         "description": "Revolutionizing the detection of arterial air embolisms utilizing computer science.",
         "category": "Python App",
-        "image": "js.png",
+        "image": "python.png",
         "url": "https://github.com/VSai2314108/FFT"
       },
       {
         "title": "Car Analyzer",
         "description": "An easy to use web app allowing individuals to better reasearch potential vechicle purchases.",
         "category": "Python And React Project",
-        "image": "js.png",
+        "image": "dj.png",
         "url": "https://github.com/VSai2314108/f3530"
       },
       {
         "title": "Mine Sweeper",
         "description": "A recreation of the age old mine sweeper game.",
         "category": "C++ Project",
-        "image": "js.png",
+        "image": "c.png",
         "url": "https://github.com/VSai2314108/MineSweeper"
-      },
-      {
-        "title": "Cricket Game",
-        "description": "An Incremental design workshop",
-        "category": "Ruby",
-        "image": "ruby.png",
-        "url": "https://github.com/shanshaji/Cricket"
-      },
-      {
-        "title": "Ecommerce App",
-        "description": "A basic ecommerce application",
-        "category": "Ruby",
-        "image": "ruby.png",
-        "url": "https://github.com/shanshaji/Ecommerce"
-      },
-      {
-        "title": "Mars Rover",
-        "description": "Mars Rover Problem Design",
-        "category": "Ruby",
-        "image": "ruby.png",
-        "url": "https://github.com/shanshaji/mars-rover"
-      },
-      {
-        "title": "Dragon PvP Game",
-        "description": "Local Multiplayer 2D Game",
-        "category": "Dragon Ruby",
-        "image": "dragonruby-black.png",
-        "url": "https://shanshaji.itch.io/dragon-pvp"
-      }  
+      }
     ]
   }
 }
