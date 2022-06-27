@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "//vsai2314108.github.io/personalPortfolio/static/js/main.568033d8.js",
-    "static/media/profilepic.jpg": "//vsai2314108.github.io/personalPortfolio/static/media/profilepic.b6caf3e64cb8a7908ea4.jpg",
-    "static/media/resume.pdf": "//vsai2314108.github.io/personalPortfolio/static/media/resume.f5522106a4864d32f728.pdf",
-    "index.html": "//vsai2314108.github.io/personalPortfolio/index.html",
-    "main.568033d8.js.map": "//vsai2314108.github.io/personalPortfolio/static/js/main.568033d8.js.map"
+    "main.js": "/personalPortfolio/static/js/main.9cc76493.js",
+    "static/media/profilepic.jpg": "/personalPortfolio/static/media/profilepic.b6caf3e64cb8a7908ea4.jpg",
+    "static/media/resume.pdf": "/personalPortfolio/static/media/resume.f5522106a4864d32f728.pdf",
+    "index.html": "/personalPortfolio/index.html",
+    "main.9cc76493.js.map": "/personalPortfolio/static/js/main.9cc76493.js.map"
   },
   "entrypoints": [
-    "static/js/main.568033d8.js"
+    "static/js/main.9cc76493.js"
   ]
 }
