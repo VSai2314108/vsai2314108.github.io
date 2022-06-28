@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/personalPortfolio/static/js/main.9cc76493.js",
-    "static/media/profilepic.jpg": "/personalPortfolio/static/media/profilepic.b6caf3e64cb8a7908ea4.jpg",
+    "main.js": "/personalPortfolio/static/js/main.91806a6c.js",
+    "static/media/profilepic.jpg": "/personalPortfolio/static/media/profilepic.60b4f70642762d7439c4.jpg",
     "static/media/resume.pdf": "/personalPortfolio/static/media/resume.f5522106a4864d32f728.pdf",
     "index.html": "/personalPortfolio/index.html",
-    "main.9cc76493.js.map": "/personalPortfolio/static/js/main.9cc76493.js.map"
+    "main.91806a6c.js.map": "/personalPortfolio/static/js/main.91806a6c.js.map"
   },
   "entrypoints": [
-    "static/js/main.9cc76493.js"
+    "static/js/main.91806a6c.js"
   ]
 }
