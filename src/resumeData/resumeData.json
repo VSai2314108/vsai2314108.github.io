@@ -3,9 +3,10 @@
     "name": "VijayaSai Somasundaram",
     "occupation": "Computer Science Student at the University of Floria",
     "description": "I mostly work with algorithmic software development and cloud solutions architecture.",
-    "bio": "Passionate Computer Science student.",
+    "bio": "Since childhood, I have enjoyed exploring new endeavors that pose new challenges. I use my love for problem solving to discover oppurtunities to implement programmatic solutions. Currently, I am looking for oppurtunities to expand my professional skill set through software engineering or fintech roles. Besides my professional interest, I also enjoy sports and outdoor activities. Some of my favorites are hiking, skiing and playing volleyball with friends. I love talking about news in tech, business and volleyball. Feel free to reach out through the contact button and start the conversation.",
     "email": "somasundaramv@ufl.edu",
     "phone": "954-895-7910",
+    "hometown": "Miami",
     "address": {
       "street": "1250 W University Ave",
       "city": "Gainesville",
@@ -58,7 +59,7 @@
         "company": "ADSC",
         "title": "Co-Founder",
         "years": "January 2022",
-        "description": "Automating E-Commerce Store Creation in order to increase industry accessibility and improver seller side productivity."
+        "description": "Automating E-Commerce Store Creation in order to increase industry accessibility and improving seller side productivity."
       }
     ],
     "skills": [

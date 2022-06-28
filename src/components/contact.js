@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from '@emailjs/browser';
 
 class Contact extends Component {
   constructor() {
@@ -9,6 +10,7 @@ class Contact extends Component {
       subject: "",
       message: "",
       status: "",
+      ref: React.createRef()
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,22 +27,14 @@ class Contact extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    const form = event.target;
-    const data = new FormData(form);
-    const xhr = new XMLHttpRequest();
-    xhr.open(form.method, form.action);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        form.reset();
-        this.setState({ status: "SUCCESS" });
-      } else {
-        this.setState({ status: "ERROR" });
-      }
-    };
-    xhr.send(data);
-  }
+    console.log(this.state.ref.current)
+    emailjs.sendForm('service_zs38ym9', 'template_fsq0b1v', this.state.ref.current, 'nb1Fp6rLRv5RvNrFU')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   render() {
     if (this.props.data) {
@@ -72,6 +66,7 @@ class Contact extends Component {
                 name="contactForm"
                 action="Your FormSpree link"
                 method="POST"
+                ref={this.state.ref}
               >
                 <fieldset>
                   <div>
