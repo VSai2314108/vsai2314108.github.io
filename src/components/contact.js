@@ -28,11 +28,17 @@ class Contact extends Component {
   handleSubmit(event) {
     event.preventDefault();
     console.log(this.state.ref.current)
+    if(this.state.name ==="" || this.state.name ==="" || this.state.name ==="" || this.state.name ==="") {
+      this.setState({status:"MISSING"})
+      return
+    }
     emailjs.sendForm('service_zs38ym9', 'template_fsq0b1v', this.state.ref.current, 'nb1Fp6rLRv5RvNrFU')
       .then((result) => {
           console.log(result.text);
+          this.setState({status: "SUCCESS"})
       }, (error) => {
           console.log(error.text);
+          this.setState({status: "ERROR"})
       });
   };
 
@@ -129,13 +135,14 @@ class Contact extends Component {
 
                   <div>
                     {status === "SUCCESS" ? (
-                      <p>Thanks!</p>
+                      <p>Thanks! Looking forward to speaking to you soon!</p>
                     ) : (
                       <button type="submit" className="submit">
                         Submit
                       </button>
                     )}
                     {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                    {status === "MISSING" && <p>Please fill out all categories before submitting!</p>}
 
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
