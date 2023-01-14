@@ -1,5 +1,5 @@
-# Getting Started with Create React App
+# My personal Portfolio!!
 
-Update Local Code
-Run npm run deploy
-Set custom domain in github console to www.vijayasaisomasundaram.com
+vijayasaisomasundaram.com
+
+Using the link above, you can view my personal portfolio website!!
